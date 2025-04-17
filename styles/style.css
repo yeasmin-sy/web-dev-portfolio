@@ -41,6 +41,9 @@
     border: none;
 
   }
+   .text-center{
+    text-align: center;
+   }
 
   .section-title{
     font-weight: bold;
@@ -133,9 +136,14 @@ main{
   max-width: 1100px;
   margin: 0 auto;
 }
-/* about-head styles */
-.about-head{
+
+main section{
   margin-top: 130px;
+ margin-bottom: 130px;
+}
+
+/* about-head styles */
+.about-section{
   border-radius: 10px;
   padding: 130px 150px;
 }
@@ -143,7 +151,7 @@ main{
 /* about styles */
 .about{
   
-  max-width: 800px;
+  /* max-width: 800px; */
   border: 2px black solid;
   text-align: center;
   
@@ -164,6 +172,26 @@ main{
   font-weight: 700;
   color: #474747;
 
+}
+
+
+/* styles skill section */
+
+
+.section-para{
+ padding-left: 110px;
+ padding-right: 110px;
+}
+
+.skill-container{
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+  
+}
+.skill{
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 
 
