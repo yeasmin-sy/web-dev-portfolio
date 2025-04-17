@@ -1,0 +1,169 @@
+
+/* body styles */
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+ /* header style */
+
+ .header{
+  background-image: url("../images/developer.png"),url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: left top, bottom right;
+ }
+
+  /* Shared style */
+  .text-primary{
+    color: #FD6E0A;
+  }
+
+  .dark-1{
+   color: #181818; 
+  }
+
+  .dark-2{
+    color: #474747;
+  }
+  .dark-3{
+    color: #757575;
+  }
+
+  .btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+
+  }
+
+  .section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818; 
+  }
+  .section-description{
+    font-weight: 18px;
+    font-size: 400;
+    color: #757575;
+  }
+
+  .secondary-bg{
+    background-color: #FFF8F3;
+  }
+
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* Styles banner content */
+
+.banner-content{
+  max-width: 580px;
+  height: 350px;
+}
+
+.banner-greetings{
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+.banner-title{
+  font-weight: 900;
+  font-size: 85px;
+  margin-bottom: 0;
+
+}
+.banner-description{
+  font-weight:400;
+  font-size: 18px;
+}
+
+.btn-contact{
+  margin-left: 20px;
+  background-color:#FFF8F3 ;
+  color: #FD6E0A;
+  border:2px solid #FD6E0A;
+}
+/* styles banner-img */
+.banner-img{
+  width: 584px;
+  height: 676px;
+}
+
+/* Styles banner */
+
+.banner{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 230px;
+  margin-right: 38px;
+}
+/* main styles */
+main{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+/* about-head styles */
+.about-head{
+  margin-top: 130px;
+  border-radius: 10px;
+  padding: 130px 150px;
+}
+
+/* about styles */
+.about{
+  
+  max-width: 800px;
+  border: 2px black solid;
+  text-align: center;
+  
+}
+.about-bg{
+  background-color: white;
+}
+.about-items{
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.item-title{
+  color: #181818; 
+}
+
+.item-description{
+  font-weight: 700;
+  color: #474747;
+
+}
+
+
