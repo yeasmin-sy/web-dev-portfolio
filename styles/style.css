@@ -133,6 +133,10 @@ nav li a{
   height: 676px;
 }
 
+.banner-button{
+  display: flex;
+}
+
 
 /* Styles banner */
 
