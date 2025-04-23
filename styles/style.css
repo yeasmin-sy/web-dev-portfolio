@@ -7,6 +7,8 @@
     font-variation-settings:
       "wdth" 100;
   }
+
+
  /* header style */
 
  .header{
@@ -14,6 +16,9 @@
   background-repeat: no-repeat;
   background-position: left top, bottom right;
  }
+
+
+
 
   /* Shared style */
   .text-primary{
@@ -60,6 +65,9 @@
     background-color: #FFF8F3;
   }
 
+
+
+
 /* Nav styles */
 nav{
     display: flex;
@@ -87,6 +95,9 @@ nav li a{
     font-weight: 400;
     font-size: 20px;
 }
+
+
+
 
 /* Styles banner content */
 
@@ -117,11 +128,15 @@ nav li a{
   color: #FD6E0A;
   border:2px solid #FD6E0A;
 }
+
+
+
 /* styles banner-img */
 .banner-img{
   width: 584px;
   height: 676px;
 }
+
 
 /* Styles banner */
 
@@ -131,6 +146,9 @@ nav li a{
   margin-left: 230px;
   margin-right: 38px;
 }
+
+
+
 /* main styles */
 main{
   max-width: 1100px;
@@ -142,6 +160,9 @@ main section{
  margin-bottom: 130px;
 }
 
+
+
+
 /* about-head styles */
 .about-section{
   border-radius: 10px;
@@ -150,8 +171,6 @@ main section{
 
 /* about styles */
 .about{
-  
-  /* max-width: 800px; */
   border: 2px black solid;
   text-align: center;
   
@@ -175,9 +194,8 @@ main section{
 }
 
 
+
 /* styles skill section */
-
-
 .section-para{
  padding-left: 110px;
  padding-right: 110px;
@@ -192,6 +210,66 @@ main section{
 .skill{
   padding: 30px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+/* style Resume section */
+
+.resume-container{
+  display: flex;
+  gap: 24px;
+}
+
+.resume-item-description, .resume-item-subtitle{
+  color: #757575;
+
+}
+
+.resume-item-title{
+  font-size: 25px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  
+}
+
+.resume-item-subtitle{
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 10px;
+ margin-bottom: 20px;
+}
+
+.resume hr{
+  margin: 30px 0px;
+}
+.resume-item{
+  width: 500px;
+}
+.resume-button{
+  margin-top: 50px;
+}
+
+
+/* styles with footer */
+.footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 110px;
+}
+
+.footer-column{
+  width: 50%;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 80%;
+  padding: 10px;
+  border: none;
+  margin-bottom: 24px;
 }
 
 
