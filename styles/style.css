@@ -9,18 +9,11 @@
   }
 
 
- /* header style */
-
- .header{
-  background-image: url("../images/developer.png"),url("../images/header_bg.png");
-  background-repeat: no-repeat;
-  background-position: left top, bottom right;
- }
-
-
-
-
+  
   /* Shared style */
+  .secondary-bg{
+    background-color: #FFF8F3;
+  }
   .text-primary{
     color: #FD6E0A;
   }
@@ -61,43 +54,46 @@
     color: #757575;
   }
 
-  .secondary-bg{
-    background-color: #FFF8F3;
-  }
+ 
 
 
 
+ /* header style */
 
-/* Nav styles */
+ .header{
+  background-image: url("../images/developer.png"),url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: left top, bottom right;
+ }
+
+
+ /* Nav styles */
 nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
 }
 
 .nav-title{
-    font-weight: 800;
-    font-size: 45px;
+  font-weight: 800;
+  font-size: 45px;
 }
 
 nav ul{
-    display: flex;
-    align-items: center;
-    
+  display: flex;
+  align-items: center;
+  
 }
 nav ul li{
-    list-style: none;
-    margin-right: 51px;
+  list-style: none;
+  margin-right: 51px;
 }
 nav li a{
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 20px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
 }
-
-
-
 
 /* Styles banner content */
 
